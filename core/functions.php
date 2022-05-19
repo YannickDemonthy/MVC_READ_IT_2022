@@ -1,5 +1,5 @@
 <?php 
-function getFormatedDate(string $date, string $format) {
-    return date_format(date_create($data), $format);
+function getFormatedDate(string $date, string $format= 'd-m-Y') {
+    return date_format(date_create($date), $format);
 }
 
